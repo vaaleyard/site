@@ -1,10 +1,9 @@
-title: no style, please! # name of the site
-author: Riccardo Graziosi # name of site's author
-email: riccardo.graziosi97@gmail.com # email of site's author
-url: https://riggraz.dev # root address of the site
+title: blog # name of the site
+author: Leonardo F. # name of site's author
+email: leonardo@essia.dev # email of site's author
+url: https://essia.dev # root address of the site
 baseurl: "" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
-description: > # description of the site (multiple lines allowed)
-  A (nearly) no-CSS, fast, minimalist Jekyll theme.
+description: "" # description of the site (multiple lines allowed)
 
 permalink: /:slug.html
 
@@ -15,8 +14,8 @@ favicon: "logo.png" # name+extension of favicon (which must be put on the root f
 remote_theme: riggraz/no-style-please
 
 theme_config:
-  appearance: "auto" # can be "light", "dark" or "auto"
-  back_home_text: ".." # customize text for homepage link in post layout
+  appearance: "dark" # can be "light", "dark" or "auto"
+  back_home_text: "← back" # customize text for homepage link in post layout
   date_format: "%Y-%m-%d" # customize how date is formatted
   show_description: false # show blog description in home page
 
@@ -26,3 +25,8 @@ sass:
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-analytics
+
+jekyll_analytics:
+  GoogleAnalytics:          # Add, if you want to track with Google Analytics
+    id: UA-229591687-1
