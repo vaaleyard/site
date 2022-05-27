@@ -20,7 +20,7 @@ entries:
 
   - title: projects
     entries:
-      - title: "<a href='https://github.com/vaaleyard/bongo'>bongo</a> - A cross-platform MongoDB CLI Viewer, written in Rust 🦀 (WIP)"
+      - title: "<a href='https://github.com/vaaleyard/bongo'>bongo</a> - A cross-platform MongoDB dashboard CLI Viewer, written in Rust 🦀 (WIP)"
 
   - title: rss
     url: feed.xml
